@@ -1,0 +1,47 @@
+html{
+  
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/background.jpg');
+  background-size: 100% 100%;
+  
+}
+.arrow{
+  font-size: 7vmin;
+  background: rgba(255,0,0,.08)
+}
+.play{
+  font-size: 7vmin;
+  background: rgba(255,0,0,.08)
+}
+.play:hover{
+  background: rgba(255,255,255,.5)
+}
+.arrow:hover{
+  background: rgba(255,255,255,.5)
+}
+.centered{
+  margin: auto;
+  width: 60%;
+  
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.loop{
+  font-size: 7vmin;
+  background-color: rgba(255,0,0,.08)
+}
+.loop:hover{
+  background: rgba(255,255,255,.5)
+}
+.red{
+  font-size: 7vmin;
+  background-color: rgba(199, 55, 55, 0.788)
+}
+.loop:hover{
+  background: rgba(255, 147, 147, 0.5)
+}
+.space{
+  text-align: center;
+}
