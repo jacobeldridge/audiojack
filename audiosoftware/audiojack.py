@@ -20,17 +20,6 @@ textfile.close()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # def filescheck():
 #     global sounds
     
@@ -52,13 +41,7 @@ textfile.close()
 #     else:
 #         sounds = newsounds
         
-
-
 #     return True
-
-
-
-
 
 eel.init('web')
 
@@ -67,25 +50,14 @@ eel.init('web')
 def eelstoppy():
     return
 @eel.expose
-def play():
-    
-    
-    
-    
+def play(): 
     for i in range(numberofloops + 1):
         playsound("web/everything/_audio_/"+sounds[songcounter])
             
-        
-        
-            
-    
-
 
 @eel.expose
 def loop(num):
-    global numberofloops
-    
-        
+    global numberofloops  
     numberofloops = num
 
 
@@ -95,8 +67,7 @@ def crease(num):
     global sounds
     numcheck = songcounter + num
     if numcheck in range(0, len(sounds)):
-        songcounter = numcheck
-        
+        songcounter = numcheck    
     else:
         pass
 
